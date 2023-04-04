@@ -11,6 +11,7 @@ $message = $_POST['message'];
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images//shijan.jpg" type="image/x-icon">
     <title>Welcome <?php echo $name; ?></title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -20,7 +21,7 @@ $message = $_POST['message'];
     <h1 class="text-2xl  text-center my-10"><span class="font-semibold"><?php echo $name; ?></span> Thank you so much for you Message. We have recieved your message. We'll reply you shortly.</h1>
 
     <div class="w-1/2 mx-auto">
-        <h3 class="text-xl text-center mt-10 font-semibold"> Your Message is:</h3>
+        <h3 class="text-xl text-center my-10 font-semibold"> Your Message is:</h3>
 
         <table class="min-w-full table-auto">
             <thead>
