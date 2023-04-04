@@ -84,3 +84,18 @@ nav a:hover,
     display: flex;
     margin: auto;
 }
+
+
+/* blogs */
+
+.limited-text {
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+
+
+}
